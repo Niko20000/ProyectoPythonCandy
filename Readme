@@ -1,0 +1,29 @@
+// Configuración del entorno virtual //
+
+1. Creación del entorno virtual
+python -m venv .venv
+
+2. Activación del entorno virtual
+Windows (PowerShell)
+.\.venv\Scripts\Activate.ps1
+
+Si PowerShell tiene restricciones para ejecutar scripts:
+
+Set-ExecutionPolicy Unrestricted -Scope Process
+
+(Solo afecta la terminal actual)
+
+O permitir scripts para el usuario:
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+
+(Configuración permanente para el usuario)
+
+macOS y Linux
+source .venv/bin/activate
+
+3. Instalar las dependencias del proyecto
+pip install -r requirements.txt
+
+4. Desactivar el entorno virtual
+deactivate
