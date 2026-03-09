@@ -1,0 +1,97 @@
+body{
+margin:0;
+font-family: Arial, Helvetica, sans-serif;
+background:#fff0f5;
+}
+
+
+
+
+header{
+background:#ff4da6;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+header h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+header p{
+width:70%;
+margin:auto;
+font-size:16px;
+}
+
+
+
+
+.portada{
+text-align:center;
+padding:60px;
+background:#ffcce6;
+}
+
+.portada h1{
+font-size:45px;
+color:#ff1493;
+}
+
+.portada p{
+font-size:18px;
+}
+
+
+.productos{
+text-align:center;
+padding:40px;
+}
+
+.productos h2{
+font-size:35px;
+margin-bottom:40px;
+color:#ff1493;
+}
+
+
+
+
+.mecato{
+display:inline-block;
+width:250px;
+background:white;
+margin:20px;
+border-radius:15px;
+box-shadow:0px 4px 12px rgba(0,0,0,0.2);
+overflow:hidden;
+transition:0.3s;
+}
+
+.mecato:hover{
+transform:scale(1.05);
+}
+
+
+
+
+.mecato img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+
+
+
+.mecato h3{
+color:#ff1493;
+margin:10px;
+}
+
+.mecato p{
+padding:0 15px 20px 15px;
+font-size:14px;
+color:#444;
+}
